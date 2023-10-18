@@ -22,7 +22,7 @@ Error text goes here!
 
 Please run these commands in the project folder and fill in their results:
 
-* `npm ls react-native-calendars`:
+* `npm ls react-native-calendars-cn`:
 * `npm ls react-native`:
 
 Also specify:

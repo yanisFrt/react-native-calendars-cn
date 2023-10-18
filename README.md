@@ -105,9 +105,11 @@ import {Calendar, LocaleConfig} from 'react-native-calendars';
 
 const App = () => {
   const [selected, setSelected] = useState('');
+  const [limiteDate, setLimiteDate]= useState('2023-01-01')
 
   return (
     <Calendar
+      limiteDate = {limiteDate}
       onDayPress={day => {
         setSelected(day.dateString);
       }}

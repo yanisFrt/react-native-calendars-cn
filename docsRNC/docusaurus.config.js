@@ -9,12 +9,12 @@ const config = {
   title: 'RNC',
   tagline: 'React Native Calendars docs',
   url: 'https://wix.github.io',
-  baseUrl: '/react-native-calendars/',
+  baseUrl: '/react-native-calendars-cn/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
   organizationName: 'wix', // Usually your GitHub org/user name.
-  projectName: 'react-native-calendars', // Usually your repo name.
+  projectName: 'react-native-calendars-cn', // Usually your repo name.
   trailingSlash: false,
 
   presets: [

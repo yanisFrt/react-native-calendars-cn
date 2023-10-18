@@ -1,11 +1,12 @@
 {
-  "name": "react-native-calendars",
+  "name": "react-native-calendars-cn",
   "version": "1.22.0",
   "main": "src/index.ts",
   "types": "src/index.d.ts",
   "description": "React Native Calendar Components",
   "scripts": {
     "build": "xcodebuild -project ios/CalendarsExample.xcodeproj build",
+    "prepublish": "npm run build:ts",
     "build:ts": "tsc",
     "build:dev": "tsc --noEmit",
     "build:docs": "node ./scripts/build-docs.js",
@@ -24,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wix/react-native-calendars"
+    "url": "git+https://github.com/wix/react-native-calendars-cn"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
